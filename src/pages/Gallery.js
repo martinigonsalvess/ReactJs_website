@@ -1,6 +1,7 @@
 import React from "react";
 import { GalleryList } from "../helpers/GalleryList";
 import GalleryItem from "../components/GalleryItem";
+import "../styles/Gallery.css";
 
 function Gallery() {
   return (
@@ -10,7 +11,7 @@ function Gallery() {
         {GalleryList.map((foto, key) => {
           return (
             <div>
-              <GalleryItem key={key} name={foto.name} />
+              <GalleryItem key={key} image={foto.image} name={foto.name} />
             </div>
           );
         })}
