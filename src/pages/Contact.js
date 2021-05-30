@@ -1,11 +1,14 @@
 import React from "react";
-import foto6 from "../assets/foto6.jpg";
+import Afbeelding from "../assets/afbeelding.jpeg";
 import "../styles/Contact.css";
 
 function Contact() {
   return (
     <div className="contact">
-      <div className="leftSide" style={{ background: `url(${foto6})` }}></div>
+      <div
+        className="leftSide"
+        style={{ background: `url(${Afbeelding})` }}
+      ></div>
       <div className="rightSide">
         <h1> Contact us</h1>
         <form id="contact-form" method="POST">
