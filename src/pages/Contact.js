@@ -1,5 +1,6 @@
 import React from "react";
 import foto6 from "../assets/foto6.jpg";
+import "../styles/Contact.css";
 
 function Contact() {
   return (
@@ -15,7 +16,9 @@ function Contact() {
           <input name="email" placeholder="Enter your email" type="email" />
 
           <label htmlFor="message">Message</label>
-          <textarea></textarea>
+          <textarea rows="6" placeholder="Enter message" required></textarea>
+
+          <button type="submit">Send Message</button>
         </form>
       </div>
     </div>
